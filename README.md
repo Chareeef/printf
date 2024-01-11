@@ -23,10 +23,10 @@ Welcome to the custom `printf` project! In this project, we aim to implement a p
 
 ## Usage
 
-To use our custom `printf` function, include the provided header file in your C program:
+To use our custom `_printf` function, include the provided header file in your C program:
 
 ```c
-#include "printf.h"
+#include "main.h"
 ```
 
 Then, you can use the `_printf` function just like the standard `printf`:
@@ -42,7 +42,7 @@ int main(void)
 
 ## Supported Format Specifiers
 
-Our custom `printf` currently supports the following format specifiers:
+Our custom `_printf` currently supports the following format specifiers:
 
 - `%s` for strings
 - `%c` for characters
